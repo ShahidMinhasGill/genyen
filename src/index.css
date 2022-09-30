@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    /* font-family: 'Montserrat'; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+/* * {
+  font-family: 'Montserrat';
+  font-style: normal;
+} */
+/* body,
+html {
+  margin: 0;
+  overflow-x: hidden;
+  
+} */
+.thin {
+  /* Montserrat Thin = 100 */
+  font-weight: 100;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.extralight {
+  /* Montserrat Extra Light = 200 */
+  font-weight: 200;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.light {
+  /* Montserrat Light = 300 */
+  font-weight: 300;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.regular {
+  /* Montserrat Regular = 400 */
+  font-weight: 400;
+  font-family:" Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.medium {
+  /* Montserrat Medium = 500 */
+  font-weight: 500;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.semibold {
+  /* Montserrat Semi-bold = 600 */
+  font-weight: 600;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.bold {
+  /* Montserrat Bold = 700 */
+  font-weight: 700;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.extrabold {
+  /* Montserrat Extra Bold = 800 */
+  font-weight: 800;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.black {
+  /* Montserrat Black = 900 */
+  font-weight: 900;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+.txt-2xl{
+  font-size: 1.5rem;
+}
+.txt-3xl{
+  font-size: 1.875rem;
+}
+.logo{
+  width: 130px;
+  height: 100px;
+}
+
+.menu .btn-cnct{
+  background-color: #9945ff;
+  color: #fff;
+  padding: 20px 100px;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 800px;
+  border-radius: 10px;
+}
+.menu .stake-txt{
+  font-size: 3.5rem;
+}
+.menu .rules .list{
+  font-size: 1.125rem; 
+  padding: 10px 5px;
+}
+
+.menu .rules .list ul li{
+  font-size: 2rem;
+}
+.home .main .card, .menu .rules .card{
+  background: #0e051b;
+}
+.home .main .fees .list, .home .main .earning .list {
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #9fa6b2;
+  padding: 30px 5px;
+}
+.home .main .unstaking .list, .home .main .staking .list{
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #9fa6b2;
+  padding: 10px 5px;
+}
+.home .main .fees .list ul li,.home .main .earning .list ul li, .home .main .unstaking .list ul li , .home .main .staking .list ul li, .menu .rules .list ul li{
+  list-style: none;
+}
+.home .main .fees .list ul li span,.home .main .earning .list ul li span , .home .main .unstaking .list ul li span {
+  font-size: 1.5rem;
+}
+.home .main .earning .claim-button, .unstaking .unstakeButton{
+  background-color: #9945ff;
+  color: #fff;
+  padding: 8px 30px;
+  border: none; 
+  font-weight: bold; 
+  font-size: 1.75rem;
+  border-radius: 10px;
+}
+.custom-search {
+  position: relative;
+   padding: 10px; 
+}
+.custom-search-input {
+  width: 100%;
+  border: 2px solid #9945ff; 
+  padding: 20px 100px 20px 20px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+}
+.custom-search-botton {
+  position: absolute;
+  right: 21px;
+  top: 18px;
+  bottom: 19px;
+  border: 0;
+  background: #9945ff;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 5px 30px;
+  border-radius: 8px;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+.custom-search-botton svg{
+  font-size: larger;
+}
